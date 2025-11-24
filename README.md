@@ -1,2 +1,2 @@
 # Introduction-to-C
-All the programs learned till now
+All the programs done in C programming.
