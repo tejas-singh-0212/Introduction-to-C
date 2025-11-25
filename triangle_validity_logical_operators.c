@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int a,b,c;       //Triangle validity
+    int a,b,c;       //Checking triangle validity by logical operators
     printf("Enter length of first side: ");
     scanf("%d",&a);
     printf("Enter length of second side: ");
