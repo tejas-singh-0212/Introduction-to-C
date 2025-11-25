@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main()
 {
-    int i,j,k;     //Diamond
+    int i,j,k;     //Diamond pattern
     for(i=1;i<=5;i++){
         for(j=1;j<=5-i;j++){
             printf("  ");
