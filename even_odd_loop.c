@@ -10,6 +10,8 @@ void main()
                 printf("%d is even\n", n);
             else
                 printf("%d is odd\n", n);
+        }else{
+            printf("Exiting the program.\n");
         }
     } while(n != 0);
 }
