@@ -1,9 +1,9 @@
 #include<stdio.h>
 void main()
 {
-    int d;
+    float d;
     printf("Enter amount in Dollar: ");
-    scanf("%d", &d);
-    int r = d * 80; // Assuming 1 Dollar = 80 Rupees
-    printf("Equivalent amount in Rupees: %d INR\n", r);
+    scanf("%f", &d);
+    float r = d * 80; // Assuming 1 Dollar = 80 Rupees
+    printf("Equivalent amount in Rupees: %.2f INR\n", r);
 }
