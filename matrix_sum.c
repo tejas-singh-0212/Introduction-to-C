@@ -2,17 +2,19 @@
 void main()
 {	//Adding two matrices
 	int a[3][3];
-    printf("Enter elements of 3x3 matrix:\n");      //Input 3x3 matrix elements
+    printf("Enter elements of first 3x3 matrix:\n");      //Input 3x3 matrix elements
     for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
+			printf("Element [%d][%d]: ", i, j);
             scanf("%d",&a[i][j]);
         }
     }
 
 	int b[3][3];
-    printf("Enter elements of 3x3 matrix:\n");      //Input 3x3 matrix elements
+    printf("Enter elements of second 3x3 matrix:\n");      //Input 3x3 matrix elements
     for(int i=0;i<3;i++){
         for(int j=0;j<3;j++){
+			printf("Element [%d][%d]: ", i, j);
             scanf("%d",&b[i][j]);
         }
     }
