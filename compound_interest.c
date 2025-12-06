@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<math.h>
 void main()
 {
     float principal_amount, rate, interest, alpha;		//Compound interest
