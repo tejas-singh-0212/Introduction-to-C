@@ -12,10 +12,23 @@ void bubble_sort(int arr[],int n) {
 }
 void main()
 {
-    int arr[]={5,3,8,6,2,7,4,1};
-    int n=sizeof(arr)/sizeof(arr[0]);
-    bubble_sort(arr,n);
-    for(int i=0;i<n;i++) {
+    int n;
+    printf("Enter number of elements: ");
+    scanf("%d",&n);
+    int arr[n];
+    for (int i=0;i<n;i++) {
+        printf("Enter element %d: ",i+1);
+        scanf("%d",&arr[i]);
+    }
+    int s=sizeof(arr)/sizeof(arr[0]);
+    printf("Unsorted array: \n");
+    for(int i=0;i<s;i++) {
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
+    bubble_sort(arr,s);
+    printf("Sorted array: \n");
+    for(int i=0;i<s;i++) {
         printf("%d ",arr[i]);
     }
 }
