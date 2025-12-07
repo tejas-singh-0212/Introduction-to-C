@@ -17,10 +17,23 @@ void selection_sort(int arr[], int n)
 }
 void main()
 {
-    int arr[]={3,5,6,2,8,2,7};
-    int n=sizeof(arr)/sizeof(arr[0]);
-    selection_sort(arr, n);
-    for(int i=0;i<n;i++) {
-        printf("%d ", arr[i]);
+    int n;
+    printf("Enter number of elements: ");
+    scanf("%d",&n);
+    int arr[n];
+    for (int i=0;i<n;i++) {
+        printf("Enter element %d: ",i+1);
+        scanf("%d",&arr[i]);
+    }
+    int s=sizeof(arr)/sizeof(arr[0]);
+    printf("Unsorted array: \n");
+    for(int i=0;i<s;i++) {
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
+    selection_sort(arr,s);
+    printf("Sorted array: \n");
+    for(int i=0;i<s;i++) {
+        printf("%d ",arr[i]);
     }
 }
