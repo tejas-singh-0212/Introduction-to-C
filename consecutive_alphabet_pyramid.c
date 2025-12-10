@@ -8,8 +8,8 @@ void main()
     for(int i=1;i<=n;i++){
         for(int k=1;k<=n-i;k++){
             printf("  ");
-        }for(int j=1;j<=no_of_star;j++){
-            printf("%c ",j+64);
+        }for(int k=1;k<=no_of_star;k++){
+            printf("%c ",k+64);
         }
         no_of_star += 2;
         printf("\n");
