@@ -11,9 +11,6 @@ void main(){
     scanf("%d", &n);
     printf("Enter the values of r: ");
     scanf("%d", &r);
-    int nfact = factorial(n);
-    int rfact = factorial(r);
-    int nrfact = factorial(n-r);
-    nCr = nfact / (rfact * nrfact);
+    nCr = factorial(n) / (factorial(r) * factorial(n-r));
     printf("The value of %d_C_%d is: %d\n", n, r, nCr);
 }
