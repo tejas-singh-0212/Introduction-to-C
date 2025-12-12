@@ -5,8 +5,7 @@ int powerlog(int base, int exp){         //this one makes less number of calls
     if(exp%2==0) return a*a;
     else return base*a*a;
 }
-void main()
-{
+void main(){
     int base, exp;
     printf("Enter base: ");
     scanf("%d",&base);
