@@ -1,4 +1,4 @@
-#include<stdio.h>       //The number of ways to reach the end of a maze path by only goinf right and down
+#include<stdio.h>       //The number of ways to reach the end of a maze path by only going right and down
 int maze(int current_row, int current_col, int ending_row, int ending_col){
     int right_ways=0, down_ways=0;
     if(current_row==ending_row && current_col==ending_col){
