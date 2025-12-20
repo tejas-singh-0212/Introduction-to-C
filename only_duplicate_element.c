@@ -1,4 +1,5 @@
 #include<stdio.h>
+//all elements are present only once, except one, find that
 void main(){
     int n;
     printf("Enter length of array: ");
