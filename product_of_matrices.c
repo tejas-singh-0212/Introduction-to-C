@@ -28,16 +28,11 @@ void main()
                 scanf("%d", &b[i][k]);
             }
         }
-        //declaring product matrix with all elements as zero
         int product[row_1][col_2];
-        for(int i=0; i<row_1; i++){
-            for(int k=0; k<col_2; k++){
-                product[i][k]=0;
-            }
-        }
         //multiplying matrices
         for(int i=0; i<row_1; i++){
             for(int k=0; k<col_2; k++){
+                product[i][k]=0;
                 for(int l=0; l<col_1; l++){
                     product[i][k] += a[i][l]*b[l][k];
                 }
