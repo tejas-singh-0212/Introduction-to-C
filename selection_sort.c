@@ -1,11 +1,10 @@
 #include<stdio.h>
-void selection_sort(int arr[], int n)
-{
-    for(int i=0; i<n-1; i++)
-    {
+//selection sort algorithm, though its unstable
+//select the smallest element from unsorted array and swap it with the first element of unsorted array
+void selection_sort(int arr[], int n){
+    for(int i=0; i<n-1; i++){
         int min_index = i;
-        for(int j=i+1; j<n; j++)
-        {
+        for(int j=i+1; j<n; j++){
             if(arr[j] < arr[min_index]){
                 min_index = j;
             }
@@ -15,9 +14,9 @@ void selection_sort(int arr[], int n)
         arr[i] = temp;
     }
 }
-void main()
-{
-    int n;
+
+void main(){
+    int n; //size of array
     printf("Enter number of elements: ");
     scanf("%d",&n);
     int arr[n];
@@ -25,15 +24,16 @@ void main()
         printf("Enter element %d: ",i+1);
         scanf("%d",&arr[i]);
     }
-    int s=sizeof(arr)/sizeof(arr[0]);
+    //printing unsorted array
     printf("Unsorted array: \n");
-    for(int i=0;i<s;i++) {
+    for(int i=0;i<n;i++) {
         printf("%d ",arr[i]);
     }
     printf("\n");
-    selection_sort(arr,s);
+    selection_sort(arr,n); //sorting
+    //printing sorted array
     printf("Sorted array: \n");
-    for(int i=0;i<s;i++) {
+    for(int i=0;i<n;i++) {
         printf("%d ",arr[i]);
     }
 }
