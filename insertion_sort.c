@@ -10,8 +10,7 @@ void insertion_sort(int arr[],int n) {
         arr[j+1]=key;
     }
 }
-void main()
-{
+void main(){
     int n;
     printf("Enter number of elements: ");
     scanf("%d",&n);
@@ -20,15 +19,15 @@ void main()
         printf("Enter element %d: ",i+1);
         scanf("%d",&arr[i]);
     }
-    int s=sizeof(arr)/sizeof(arr[0]);
     printf("Unsorted array: \n");
-    for(int i=0;i<s;i++) {
+    for(int i=0;i<n;i++) {
         printf("%d ",arr[i]);
     }
     printf("\n");
-    insertion_sort(arr,s);
+    insertion_sort(arr,n);
     printf("Sorted array: \n");
-    for(int i=0;i<s;i++) {
+    for(int i=0;i<n;i++) {
         printf("%d ",arr[i]);
     }
+    return;
 }
