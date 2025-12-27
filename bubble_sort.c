@@ -20,15 +20,14 @@ void main()
         printf("Enter element %d: ",i+1);
         scanf("%d",&arr[i]);
     }
-    int s=sizeof(arr)/sizeof(arr[0]);
     printf("Unsorted array: \n");
-    for(int i=0;i<s;i++) {
+    for(int i=0;i<n;i++) {
         printf("%d ",arr[i]);
     }
     printf("\n");
-    bubble_sort(arr,s);
+    bubble_sort(arr,n);
     printf("Sorted array: \n");
-    for(int i=0;i<s;i++) {
+    for(int i=0;i<n;i++) {
         printf("%d ",arr[i]);
     }
 }
