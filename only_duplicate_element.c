@@ -10,12 +10,10 @@ void main(){
         printf("Enter element number %d: ",i+1);
         scanf("%d",arr+i);
     }
-    for(int i=0; i<n; i++){
-        for (int j=i+1; j<n; j++){
-            if(arr[i] == arr[j]){
-                printf("%d is the duplicate element.",arr[i]);
-                break;
-            }
-        }
+    int arr_sum=0,ideal_sum=0;
+    for (int i=0; i<n; i++){
+        arr_sum+=arr[i];
+        ideal_sum+=i;
     }
+    printf("The duplicate element is %d.",arr_sum-ideal_sum);
 }
