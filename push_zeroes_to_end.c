@@ -24,10 +24,10 @@ void main(){
     }
     printf("\n\n");
     //pushing zeroes to end
-    for(int i=0; i<size; i++){
-        for(int k=i+1; k<size-i; k++){
-            if(arr[i]==0){
-                swap(arr+i,arr+k);
+    for(int i=0; i<size-1; i++){
+        for(int k=0; k<size-i-1; k++){
+            if(arr[k]==0){
+                swap(arr+k,arr+k+1);
             }
         }
     }
