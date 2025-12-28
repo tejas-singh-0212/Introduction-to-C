@@ -25,7 +25,7 @@ void main(){
     printf("\n\n");
     //pushing zeroes to end
     for(int i=0; i<size; i++){
-        for(int k=i+1; k<size; k++){
+        for(int k=i+1; k<size-i; k++){
             if(arr[i]==0){
                 swap(arr+i,arr+k);
             }
