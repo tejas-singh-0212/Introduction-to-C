@@ -16,6 +16,7 @@ This project includes many example C programs such as:
 - Algorithms (GCD/LCM, Fibonacci, factorial)
 - Simple utilities like palindrome, prime check, calculator, etc.
 - Operations on singly linked list (adding, deleting nodes, traversing and reversing)
+- Operations on doubly linke dlist (adding, deleting nodes and traversing)
 ```
 Each `.c` file represents a standalone program demonstrating a unique concept.
 
