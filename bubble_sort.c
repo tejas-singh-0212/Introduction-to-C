@@ -11,12 +11,17 @@ void bubble_sort(int arr[],int n) {
                 flag = false;
             }
         }
+        if(flag) break;
     }
 }
-void main(){
+int main(){
     int n;
     printf("Enter number of elements: ");
     scanf("%d",&n);
+    if(n <= 0) {
+        printf("Invalid array size\n");
+        return 1;
+    }
     int arr[n];
     for (int i=0;i<n;i++) {
         printf("Enter element %d: ",i+1);
@@ -32,4 +37,5 @@ void main(){
     for(int i=0;i<n;i++) {
         printf("%d ",arr[i]);
     }
+    return 0;
 }
