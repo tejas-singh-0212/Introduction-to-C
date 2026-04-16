@@ -89,8 +89,8 @@ bubble_sort.exe
 
 ## Learning Flow (Suggested)
 
-1. Start with root-level basics (`even_odd_loop.c`, `grading.c`, `simple_interest.c`).
-2. Move to functions and recursion (`factorial_recursive.c`, `sum_of_natural_recursive.c`).
+1. Start with basics (`control-flow/even_odd_loop.c`, `Logic/grading.c`, `Calculations/simple_interest.c`).
+2. Move to functions and recursion (`Math/factorial_recursive.c`, `Calculations/sum_of_natural_recursive.c`).
 3. Practice arrays and algorithms (`array_operations/`, `Sorting/`, `Searching/`).
 4. Continue with 2D arrays and matrix programs (`matrix-operations/`).
 5. Finish with data structures (`linked-list/`, `Stack/`, `Queue/`).
