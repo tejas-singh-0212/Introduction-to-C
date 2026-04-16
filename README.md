@@ -8,34 +8,53 @@ This repository is organized as many small, standalone `.c` files. Each file foc
 
 Current layout of `/Git/Introduction-to-C`:
 
-- Root: 71 programs (fundamentals, math, recursion, pointers, utility programs)
+- Root: (all programs organized into subdirectories)
 - `array_operations/`: 10 programs
-- `pattern-printing/`: 27 programs
-- `Sorting/`: 3 programs
-- `Searching/`: 4 programs
-- `matrix-operations/`: 10 programs
+- `Calculations/`: 13 programs
+- `control-flow/`: 7 programs
+- `DateTime/`: 2 programs
+- `Functions/`: 1 program
+- `Game/`: 1 program
 - `linked-list/`: 3 programs
-- `Stack/`: 3 programs
+- `Logic/`: 6 programs
+- `Math/`: 18 programs
+- `matrix-operations/`: 11 programs
+- `pattern-printing/`: 28 programs
+- `Pointers/`: 3 programs
 - `Queue/`: 2 programs
+- `Recursion/`: 10 programs
+- `Searching/`: 4 programs
+- `Sorting/`: 3 programs
+- `Stack/`: 3 programs
+- `String/`: 3 programs
+- `Structures/`: 1 program
+- `Utilities/`: 3 programs
+
+**Total: 123 programs**
 
 ## Topics Covered
 
 - Basic I/O and operators
-- Conditional logic and loops
-- Number-based programs (prime, palindrome, Armstrong, digit operations)
-- Functions and recursion (factorial, fibonacci, exponent, combinatorics)
-- Arrays (insert/delete/reverse/rotate, duplicates, pair-sum)
-- Sorting and searching algorithms
-- Matrix operations (transpose, rotation, wave print, product)
-- Pointers and pointer-based calculator examples
-- Linked list, stack, and queue implementations
-- Pattern printing (stars, numbers, alphabets, Pascal triangle, diamond variants)
+- Conditional logic and loops (control-flow, Logic)
+- Number-based programs (prime, palindrome, Armstrong, digit operations in Math, Calculations)
+- Functions and recursion (factorial, fibonacci, exponent, combinatorics in Math, Recursion)
+- Arrays (insert/delete/reverse/rotate, duplicates, pair-sum in array_operations)
+- Sorting and searching algorithms (Sorting, Searching)
+- Matrix operations (transpose, rotation, wave print, product in matrix-operations)
+- Pointers and pointer-based calculator examples (Pointers)
+- Linked list, stack, and queue implementations (linked-list, Stack, Queue)
+- Pattern printing (stars, numbers, alphabets, Pascal triangle, diamond variants in pattern-printing)
+- String operations (String)
+- Structures (Structures)
+- DateTime operations (DateTime)
+- Game implementations (Game)
+- Utility programs (Utilities, Calculations)
 
 ## Example Programs
 
-- Math and logic: `GCD.c`, `LCM.c`, `prime_checker.c`, `number_palindrome.c`
-- Recursion: `factorial_recursive.c`, `fibonnacci_recursive.c`, `exponent_recursive.c`
-- Utilities: `cmd_line_utility_calc.c`, `pointer_calculator.c`, `bill_generator_from_template.c`
+- Math and logic: `Math/prime_checker.c`, `Math/number_palindrome.c`, `Math/armstrong_number.c`
+- Recursion: `Math/factorial_recursive.c`, `Recursion/fibonnacci_recursive.c`, `Recursion/exponent_recursive.c`
+- Utilities: `Calculations/cmd_line_utility_calc.c`, `Pointers/pointer_calculator.c`, `Utilities/bill_generator_from_template.c`
 - Data structures: `linked-list/linked_list_operations.c`, `Stack/stack_using_array.c`, `Queue/queue_using_linked_list.c`
 - Algorithms: `Sorting/bubble_sort.c`, `Searching/binary_search_iterative.c`, `matrix-operations/matrix_clockwise_rotation.c`
 
@@ -46,7 +65,6 @@ Current layout of `/Git/Introduction-to-C`:
 Install a C compiler:
 
 - GCC (MinGW on Windows)
-- or Clang
 
 Check compiler installation:
 
@@ -57,13 +75,6 @@ gcc --version
 ### Compile and Run
 
 From `/Git/Introduction-to-C`, compile any file:
-
-```bash
-gcc prime_checker.c -o prime_checker
-./prime_checker
-```
-
-For files inside subfolders:
 
 ```bash
 gcc Sorting/bubble_sort.c -o bubble_sort
