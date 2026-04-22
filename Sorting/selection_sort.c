@@ -15,6 +15,13 @@ void selection_sort(int arr[], int n){
     }
 }
 
+void printArray(int arr[], int n){
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
+}
+
 void main(){
     int n; //size of array
     printf("Enter number of elements: ");
@@ -24,16 +31,9 @@ void main(){
         printf("Enter element %d: ",i+1);
         scanf("%d",&arr[i]);
     }
-    //printing unsorted array
     printf("Unsorted array: \n");
-    for(int i=0;i<n;i++) {
-        printf("%d ",arr[i]);
-    }
-    printf("\n");
-    selection_sort(arr,n); //sorting
-    //printing sorted array
+    printArray(arr, n);
+    selection_sort(arr,n);
     printf("Sorted array: \n");
-    for(int i=0;i<n;i++) {
-        printf("%d ",arr[i]);
-    }
+    printArray(arr, n);
 }
