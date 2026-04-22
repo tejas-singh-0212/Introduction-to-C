@@ -14,6 +14,14 @@ void bubble_sort(int arr[],int n) {
         if(flag) break;
     }
 }
+
+void printArray(int arr[], int n){
+    for(int i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+    printf("\n");
+}
+
 int main(){
     int n;
     printf("Enter number of elements: ");
@@ -28,14 +36,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     printf("Unsorted array: \n");
-    for(int i=0;i<n;i++) {
-        printf("%d ",arr[i]);
-    }
-    printf("\n");
+    printArray(arr, n);
     bubble_sort(arr,n);
     printf("Sorted array: \n");
-    for(int i=0;i<n;i++) {
-        printf("%d ",arr[i]);
-    }
+    printArray(arr, n);
     return 0;
 }
