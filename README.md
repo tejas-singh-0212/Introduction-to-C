@@ -30,7 +30,7 @@ Current layout of `/Git/Introduction-to-C`:
 - `Structures/`: 1 program
 - `Utilities/`: 3 programs
 
-**Total: 123 programs**
+**Total: 132 programs**
 
 ## Topics Covered
 
