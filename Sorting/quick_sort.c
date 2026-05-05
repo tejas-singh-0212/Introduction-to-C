@@ -49,9 +49,10 @@ int main(){
     for(int i=0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    printf("Original array:\n");
+    printf("Original array: ");
     printArray(arr, n);
     quickSort(arr, 0, n-1);
+    printf("Sorted array: ");
     printArray(arr, n);
     return 0;
 }
