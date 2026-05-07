@@ -25,12 +25,12 @@ Current layout of `/Git/Introduction-to-C`:
 - `Recursion/`: 10 programs
 - `Searching/`: 4 programs
 - `Sorting/`: 8 programs
-- `Stack/`: 5 programs
+- `Stack/`: 6 programs
 - `String/`: 3 programs
 - `Structures/`: 1 program
 - `Utilities/`: 3 programs
 
-**Total: 138 programs**
+**Total: 139 programs**
 
 ## Topics Covered
 
