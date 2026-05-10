@@ -21,7 +21,7 @@ Current layout of `/Git/Introduction-to-C`:
 - `matrix-operations/`: 11 programs
 - `pattern-printing/`: 28 programs
 - `Pointers/`: 3 programs
-- `Queue/`: 7 programs
+- `Queue/`: 8 programs
 - `Recursion/`: 10 programs
 - `Searching/`: 4 programs
 - `Sorting/`: 8 programs
@@ -30,7 +30,7 @@ Current layout of `/Git/Introduction-to-C`:
 - `Structures/`: 1 program
 - `Utilities/`: 3 programs
 
-**Total: 143 programs**
+**Total: 144 programs**
 
 ## Topics Covered
 
