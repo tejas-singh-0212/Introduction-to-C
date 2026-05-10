@@ -31,3 +31,9 @@ int evaluatePrefix(char* exp) {
     }
     return pop();
 }
+
+int main() {
+    char exp[] = "+ * 1 2 3";  // infix: (1 * 2) + 3 = 5
+    printf("Result: %d\n", evaluatePrefix(exp));
+    return 0;
+}
